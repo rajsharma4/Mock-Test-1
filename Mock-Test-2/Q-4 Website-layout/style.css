@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ------------------------------------ */
+/* the navbar section starts from here */
+/* ---------------------------------- */
+header {
+  text-align: center;
+  background-color: #241c15;
+  color: white;
+  padding-top: 15px;
+}
+
+header p {
+  margin-bottom: 18px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  font-weight: 600;
+}
+
+nav img {
+  width: 10%;
+  background-color: transparent;
+}
+
+.sales {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-globe {
+  margin-right: -10px;
+}
+
+button {
+  padding: 2vh 1.6vw;
+  border-radius: 30px;
+  border: 1px solid black;
+  font-weight: 600;
+}
+
+.sales a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+#language-select {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.btn {
+  background-color: yellow;
+}
+
+/*-------------------------------*/
+/* hero section starts from here */
+/*-------------------------------*/
+
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-section {
+  width: 50%;
+  margin-left: 4em;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.left-section h1 {
+  font-size: 2.5em;
+}
+
+.left-section p {
+  text-align: justify;
+  width: 90%;
+}
+
+.left-section .text {
+  font-size: 1.4em;
+}
+
+.right-section {
+  width: 50%;
+}
+
+.right-section img {
+  width: 100%;
+}
+
+/* cookie massage */
+
+.cookie-msg {
+  background-color: #241c15;
+  display: flex;
+  margin-top: -55px;
+  position: relative;
+  z-index: 10;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cookie-msg p {
+  width: 85%;
+  color: white;
+}
+
+.cokke {
+  border-radius: 1px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+.close {
+  margin-left: 20px;
+  color: white;
+  margin-top: 10px;
+}

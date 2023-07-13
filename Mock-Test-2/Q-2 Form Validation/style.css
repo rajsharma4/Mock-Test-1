@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+}
+
+.error {
+    color: red;
+}
+
+h1 {
+    color: white;
+    margin: 40px 0;
+}
+
+form {
+    border: 2px solid white;
+    padding: 20px;
+}
+
+label, input {
+    margin: 10px 0;
+}
